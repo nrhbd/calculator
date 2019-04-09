@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator by silverbackgorilla</title>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <!-- <link href='http://fonts.googleapis.com/css?family=Rubik+One|Kalam|Orbitron' rel='stylesheet' type='text/css'> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="frame">
+    <p class="apptitle"> Simple JS Calculator <strong>V 02</strong> </p>
+    <div class="screen-container">
+      <!-- <input type="number" maxlength="7" onkeypress="return isNumberKey(event);" class="display-text" autofocus></input> -->
+      <input type="text" maxlength="10" class="screen-display" autofocus>
+    </div>
+    <div class="digits-container ">
+      <div id="button-div "><button class="digits button-action" value="8">8</button></div>
+      <div id="button-div "><button class="digits button-action" value="7">7</button></div>
+      <div id="button-div "><button class="digits button-action" value="9">9</button></div>
+      <div id="button-div "><button class="digits button-action" value="4">4</button></div>
+      <div id="button-div "><button class="digits button-action" value="5">5</button></div>
+      <div id="button-div "><button class="digits button-action" value="6">6</button></div>
+      <div id="button-div "><button class="digits button-action" value="1">1</button></div>
+      <div id="button-div "><button class="digits button-action" value="2">2</button></div>
+      <div id="button-div "><button class="digits button-action" value="3">3</button></div>
+      <div id="button-div "><button class="digits button-action" value="0">0</button></div>
+      <div id="button-div "><button class="digits button-action" value=".">&#8226;</button></div>
+      <div id="button-div "><button class="digits memmory-button  other-buttons"  value="mc">M</button></div>
+      <div id="button-div "><button class="digits retrieve-button other-buttons"  value="r">R</button></div>
+      <div id="button-div "><button class="digits rewind-button  other-buttons" value="<">&#8635;</button></div>
+      <div id="button-div "><button class="digits backspace-button other-buttons" value="<">&#9003;</button></div>
+      <div id="button-div "><button class="digits button-action other-buttons" value="(">(</button></div>
+      <div id="button-div "><button class="digits button-action other-buttons" value=")">)</button></div>
+      <div id="button-div "><button class="digits clear-button  other-buttons " value="C">C</button></div>
+
+    </div>
+    <div class="symbols-container ">
+      <div class="symbol-div-mul "><button class="symbol-style button-action digits " value="*">*</button></div>
+      <div class="symbol-div-div "><button class="symbol-style button-action digits " value="/">/</button></div>
+      <div class="symbol-div-add "><button class="symbol-style button-action digits " value="+">+</button></div>
+      <div class="symbol-div-sub "><button class="symbol-style button-action digits " value="-">&#8722;</button></div>
+      <div class="symbol-div-eqa "><button class="symbol-style equal-sign " value="=">=</button></div>
+    </div>
+  </div>
+
+  <script src=" js/Calculator.js "></script>
+</body>
+
+</html>
