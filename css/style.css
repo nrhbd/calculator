@@ -8,11 +8,10 @@ body {
   padding: 5px;
   margin: 0px;
   color: white;
-  ;
 }
 
 .frame {
-  background: #D32F2F;
+  background: #d32f2f;
   width: 300px;
   margin: auto;
   padding-bottom: 5px;
@@ -33,7 +32,7 @@ body {
   box-sizing: border-box;
   text-align: right;
   /* font: normal 35px/150% 'Orbitron'; */
-  font-size: 2em;
+  font-size: 1.5em;
   background: #585555;
   /* color: #952525; */
   color: #eeeeee;
@@ -44,11 +43,11 @@ body {
 .digits-container {
   display: grid;
   justify-content: center;
-  justify-itmes: center;
+  justify-items: center;
   align-content: space-evenly;
   grid-template-columns: auto auto auto;
   grid-gap: 3px;
-  background-color: #F44336;
+  background-color: #f44336;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -56,11 +55,11 @@ body {
 .digits {
   text-decoration: none;
   /* border: 1px solid rgb(149, 44, 36,0.9); */
-  border:none;
+  border: none;
   padding: 13px 38px;
   cursor: pointer;
   background: rgb(149, 44, 36, 0.5);
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1em;
   text-align: center;
   width: 5%;
@@ -70,7 +69,7 @@ body {
 button:hover {
   color: red;
 }
-.other-buttons{
+.other-buttons {
   background: rgb(149, 44, 36);
 }
 .symbols-container {
@@ -114,7 +113,22 @@ button:focus {
   border: none;
   width: 100%;
   padding: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   background: rgb(140, 15, 15);
   cursor: pointer;
+}
+#foot {
+  width: 300px;
+  margin: auto;
+  padding-bottom: 5px;
+  text-align: center;
+  border-radius: 2%;
+}
+#foot a {
+  color: #585555;
+  text-decoration: none;
+  margin-top: 30px;
+}
+#foot a:hover {
+  text-decoration: underline;
 }
