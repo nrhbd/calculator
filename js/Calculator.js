@@ -77,7 +77,7 @@ function Calculator() {
     }
     if (currentChar === "(") {
       let str = getInputValue();
-      if (str === "" ) {
+      if (str === "") {
         setInputValue("(");
         return;
       }
@@ -226,7 +226,11 @@ function Calculator() {
   }
 
   function getInputValue() {
-    return screenDisplayInput.value;
+    let str = screenDisplayInput.value;
+    if (!str.match(/[a-z|A-Z]/)) return str;
+    else {
+      return "";
+    }
   }
 
   function setInputValue(value) {
