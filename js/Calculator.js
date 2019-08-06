@@ -228,9 +228,7 @@ function Calculator() {
   function getInputValue() {
     let str = screenDisplayInput.value;
     if (!str.match(/[a-z|A-Z]/)) return str;
-    else {
-      return "";
-    }
+    else return "Syntax Error";
   }
 
   function setInputValue(value) {
